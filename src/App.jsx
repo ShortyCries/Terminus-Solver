@@ -1,6 +1,8 @@
 
 import './App.css'
+import './BigContainer.css'
 import BigContainer from './BigContainer'
+
 
 function App() {
 
