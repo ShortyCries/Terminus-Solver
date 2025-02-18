@@ -7,8 +7,9 @@ export default function Signs({ value, clickFunc }) {
     const src = 'imgs/' + obj[value] + '.png';
 
     function handleClick() {
-        clickFunc(src);
+        clickFunc(src, value);
     }
+
     return (
         <div className="flexContainer">
             <img onClick={handleClick} src={src} alt="" />
