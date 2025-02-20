@@ -6,6 +6,8 @@ export default function Signs({ value, clickFunc }) {
 
     const src = 'imgs/' + obj[value] + '.png';
 
+
+    
     function handleClick() {
         clickFunc(src, value);
     }
