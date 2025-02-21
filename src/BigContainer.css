@@ -19,14 +19,23 @@
 }
 
 .PuzzleSolver {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     justify-content: center;
+}
+
+.test {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    margin-top: 10px;
 
 }
 
-
-
+.test span {
+    display: block;
+}
 
 
 /* 
