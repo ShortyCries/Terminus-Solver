@@ -24,13 +24,14 @@ function App() {
         <BigContainer variable={"X"} bigUpdateValues={updateValue} />
         <BigContainer variable={"Y"} bigUpdateValues={updateValue} />
         <BigContainer variable={"Z"} bigUpdateValues={updateValue} />
+        <div className="test">
+          <span>{2 * values.X + 11}</span><span>{(2 * values.Z + values.Y) - 5}</span><span>{Math.abs((values.Y + values.Z) - values.X)}</span>
+        </div>
 
       </div>
 
 
-      <div>
-        <span>{2 * values.X + 11}</span><br /><span>{(2 * values.Z + values.Y) - 5}</span><br /><span>{Math.abs((values.Y + values.Z) - values.X)}</span>
-      </div>
+
 
 
     </>
