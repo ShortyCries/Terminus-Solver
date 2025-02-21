@@ -28,9 +28,9 @@ function App() {
       </div>
 
 
-      <div>
-        <span>{2 * values.X + 11}</span><br /><span>{(2 * values.Z + values.Y) - 5}</span><br /><span>{Math.abs((values.Y + values.Z) - values.X)}</span>
-      </div>
+        <div>
+          <span>{2 * values.X + 11}</span><br /><span>{(2 * values.Z + values.Y) - 5}</span><br /><span>{Math.abs((values.Y + values.Z) - values.X)}</span>
+        </div>
 
 
     </>
