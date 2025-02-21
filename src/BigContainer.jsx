@@ -2,11 +2,6 @@ import Signs from "./Signs"
 import './BigContainer.css';
 import { useState } from "react";
 
-
-
-
-
-
 export default function BigContainer({ variable, bigUpdateValues }) {
 
     const [address, setAddress] = useState("imgs/img1.png");
@@ -36,12 +31,7 @@ export default function BigContainer({ variable, bigUpdateValues }) {
                     <Signs value={0} clickFunc={handleClick} />
                 </div>
 
-
-
-
             </div>
-
-
 
         </div>
     )
