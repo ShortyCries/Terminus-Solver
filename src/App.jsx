@@ -19,6 +19,7 @@ function App() {
 
   return (
     <>
+      <h1>Multi-Phasic Injector Step</h1>
       <div className='PuzzleSolver'>
         <BigContainer variable={"X"} bigUpdateValues={updateValue} />
         <BigContainer variable={"Y"} bigUpdateValues={updateValue} />
