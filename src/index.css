@@ -12,9 +12,36 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+
 }
 
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e1e;
+  /* Dark background */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #444;
+  /* Darker thumb */
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #666;
+  /* Slightly lighter on hover */
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #444 #1e1e1e;
+}
 
 
 
@@ -35,6 +62,9 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-image: url('imgs/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
