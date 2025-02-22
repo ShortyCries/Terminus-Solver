@@ -41,7 +41,7 @@ span {
 .ResultBorder {
     border: solid black;
     margin-top: 35px;
-    background-color: #a3b18a;
+    background-color: rgba(163, 177, 138, 0.7);
 }
 
 /* 

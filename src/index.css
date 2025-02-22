@@ -62,9 +62,10 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-image: url('imgs/background.jpg');
+  background-image: url('imgs/cityCover.gif');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 h1 {
