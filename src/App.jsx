@@ -24,12 +24,29 @@ function App() {
         <BigContainer variable={"X"} bigUpdateValues={updateValue} />
         <BigContainer variable={"Y"} bigUpdateValues={updateValue} />
         <BigContainer variable={"Z"} bigUpdateValues={updateValue} />
-        <div className="test">
-          <span>{2 * values.X + 11}</span><span>{(2 * values.Z + values.Y) - 5}</span><span>{Math.abs((values.Y + values.Z) - values.X)}</span>
-        </div>
+
 
       </div>
 
+      <div className="ResultBorder">
+
+        <div className='PuzzleSolver'>
+          <span>I</span><span>II</span><span>III</span>
+
+        </div>
+
+        <div className='PuzzleSolver'>
+
+          <div>
+            <span className="borderLeftRight">{2 * values.X + 11}</span>
+          </div>
+          <div><span className="borderLeftRight">{(2 * values.Z + values.Y) - 5}</span>
+          </div>
+          <div>
+            <span className="borderLeftRight">{Math.abs((values.Y + values.Z) - values.X)}</span>
+          </div>
+        </div>
+      </div>
 
 
 
