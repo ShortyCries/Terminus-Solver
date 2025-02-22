@@ -11,22 +11,38 @@
     padding: 30px;
     margin-left: 20px;
     margin-right: 20px;
+    background-color: rgba(163, 177, 138, 0.7);
 }
+
 
 .resultImg {
     margin-bottom: 45px;
 }
 
 .PuzzleSolver {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     justify-content: center;
-
+    width: auto;
 }
 
+.borderLeftRight {
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: solid black;
+    border-left: solid black;
+}
 
+span {
+    font-size: 50px;
+}
 
-
+.ResultBorder {
+    border: solid black;
+    margin-top: 35px;
+    background-color: rgba(163, 177, 138, 0.7);
+}
 
 /* 
 .flexContainer {
