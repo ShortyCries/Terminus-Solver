@@ -5,12 +5,17 @@
     justify-content: center;
 }
 
+.sign:Hover {
+    transform: scale(1.2);
+}
+
 .sign {
     width: calc(33.33% - 10px);
     background-color: lightblue;
     text-align: center;
     margin: 3px;
     border: 2px solid #333;
+    transition: transform 0.175s ease-in-out;
 }
 
 /* 

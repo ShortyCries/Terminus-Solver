@@ -13,8 +13,8 @@ export default function Signs({ value, clickFunc }) {
     }
 
     return (
-        <div className="sign HoverEffect">
-            <img onClick={handleClick} src={src} alt="" />
+        <div onClick={handleClick} className="sign HoverEffect">
+            <img  src={src} alt="" />
         </div>
         
     )
