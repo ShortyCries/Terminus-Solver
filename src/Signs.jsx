@@ -14,7 +14,7 @@ export default function Signs({ value, clickFunc }) {
 
     return (
         <div>
-            <img onClick={handleClick} src={src} alt="" />
+            <img className="HoverEffect" onClick={handleClick} src={src} alt="" />
         </div>
     )
 }

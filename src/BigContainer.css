@@ -44,6 +44,15 @@ span {
     background-color: rgba(163, 177, 138, 0.7);
 }
 
+.HoverEffect {
+    transition: transform 0.3s ease-in-out;
+}
+
+.HoverEffect:hover {
+    transform: scale(1.1);
+
+}
+
 /* 
 .flexContainer {
     aspect-ratio: 1;
