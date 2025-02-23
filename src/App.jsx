@@ -31,7 +31,7 @@ function App() {
       <div className="ResultBorder">
 
         <div className='PuzzleSolver'>
-          <span>I</span><span>II</span><span>III</span>
+          <span>1<sup>st</sup></span><span>2</span><span>3</span>
 
         </div>
 
@@ -47,12 +47,6 @@ function App() {
           </div>
         </div>
       </div>
-
-      <div>
-        <span>{2 * values.X + 11}</span><br /><span>{(2 * values.Z + values.Y) - 5}</span><br /><span>{Math.abs((values.Y + values.Z) - values.X)}</span>
-      </div>
-
-
     </>
   )
 }

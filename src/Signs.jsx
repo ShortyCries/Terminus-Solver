@@ -13,7 +13,7 @@ export default function Signs({ value, clickFunc }) {
     }
 
     return (
-        <div>
+        <div className="sign">
             <img onClick={handleClick} src={src} alt="" />
         </div>
     )
