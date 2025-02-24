@@ -11,7 +11,7 @@
 
 .sign {
     width: calc(33.33% - 10px);
-    background-color: rgba(210, 255, 132, 0.8);
+    background-color: rgba(210, 255, 132, 0.4);
     border-radius: 5%;
     height: 66px;
     text-align: center;
@@ -28,14 +28,17 @@
 width: 400px;
     align-items: center;
     justify-content: space-around; */
-
 .ParentContainer {
+    position: relative;
     border: solid black;
     padding: 30px;
     margin-left: 20px;
     margin-right: 20px;
-    background-color: rgba(163, 177, 138, 0.7);
+    background-color: rgba(163, 177, 138, 0.4);
     border-radius: 2%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("imgs/cityCover.gif");
+    background-size: cover;
+    background-position: center;
 }
 
 
