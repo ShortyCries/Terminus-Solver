@@ -5,10 +5,6 @@
     justify-content: center;
 }
 
-.sign:Hover {
-    transform: scale(1.2);
-}
-
 .sign {
     width: calc(33.33% - 10px);
     background-color: rgba(210, 255, 132, 0.4);
@@ -18,10 +14,20 @@
     margin: 3px;
     padding-top: 1px;
     border: 2px solid #333;
-    transition: transform 0.175s ease-in-out;
+    transition: transform 0.175s ease-in-out, box-shadow 0.175s ease-in-out, filter 0.175s ease-in-out;
+    cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAzElEQVRYR+2X0Q6AIAhF5f8/2jYXZkwEjNSVvVUjDpcrGgT7FUkI2D9xRfQETwNIiWO85wfINfQUEyxBG2ArsLwC0jioGt5zFcwF4OYDPi/mBYKm4t0U8ATgRm3ThFoAqkhNgWkA0jJLvaOVSs7j3qMnSgXWBMiWPXe94QqMBMBc1VZIvaTu5u5pQewq0EqNZvIEMCmxAawK0DNkay9QmfFNAJUXfgGgUkLaE7j/h8fnASkxHTz0DGIBMCnBeeM7AArpUd3mz2x3C7wADglA8BcWMZhZAAAAAElFTkSuQmCC) 14 0, pointer;
+}
 
-
-
+.sign:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 20px 10px rgba(255, 223, 0, 0.7),
+        /* Gold glow */
+        0 0 40px 20px rgba(255, 223, 0, 0.5),
+        /* Wider glow */
+        0 0 60px 30px rgba(255, 223, 0, 0.3);
+    /* Even wider glow */
+    filter: brightness(1.2) contrast(1.2);
+    /* Increase brightness and contrast */
 }
 
 /* 
@@ -74,6 +80,7 @@ span {
     background-color: rgba(163, 177, 138, 0.7);
     margin-right: 20px;
     margin-left: 20px;
+    border-radius: 10px;
 }
 
 .Title {
