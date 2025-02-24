@@ -11,11 +11,15 @@
 
 .sign {
     width: calc(33.33% - 10px);
-    background-color: lightblue;
+    background-color: rgba(210, 255, 132, 0.8);
+    border-radius: 5%;
     text-align: center;
     margin: 3px;
     border: 2px solid #333;
     transition: transform 0.175s ease-in-out;
+
+
+
 }
 
 /* 
@@ -53,11 +57,25 @@ width: 400px;
 }
 
 span {
-    font-size: 50px;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-shadow: rgb(51, 65, 85) 0px 2px 0px;
 }
 
 .ResultBorder {
     border: solid black;
     margin-top: 35px;
     background-color: rgba(163, 177, 138, 0.7);
+}
+
+.Title {
+    margin-bottom: 100px;
+    color: white;
+    text-shadow: rgba(2, 6, 23, 0.8) 4px 5px 0px;
+}
+
+.XYZ {
+    text-shadow: rgba(2, 6, 23, 0.8) 4px 5px 0px;
+    color: white;
 }
