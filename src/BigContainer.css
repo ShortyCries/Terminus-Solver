@@ -30,10 +30,6 @@
     /* Increase brightness and contrast */
 }
 
-/* 
-width: 400px;
-    align-items: center;
-    justify-content: space-around; */
 .ParentContainer {
     position: relative;
     border: solid black;
@@ -42,7 +38,7 @@ width: 400px;
     margin-right: 20px;
     background-color: rgba(163, 177, 138, 0.4);
     border-radius: 2%;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("imgs/cityCover.gif");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("imgs/bigContainer-bg.avif");
     background-size: cover;
     background-position: center;
 }
@@ -50,6 +46,13 @@ width: 400px;
 
 .resultImg {
     margin-bottom: 45px;
+    border: 2px solid #333;
+    margin-left: auto;
+    margin-right: auto;
+    width: 101.54px;
+    height: 71px;
+    padding-top: 9px;
+    border-radius: 5%;
 }
 
 .PuzzleSolver {
@@ -80,7 +83,6 @@ span {
     background-color: rgba(163, 177, 138, 0.7);
     margin-right: 20px;
     margin-left: 20px;
-    border-radius: 10px;
 }
 
 .Title {
