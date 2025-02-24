@@ -13,8 +13,10 @@
     width: calc(33.33% - 10px);
     background-color: rgba(210, 255, 132, 0.8);
     border-radius: 5%;
+    height: 66px;
     text-align: center;
     margin: 3px;
+    padding-top: 1px;
     border: 2px solid #333;
     transition: transform 0.175s ease-in-out;
 
@@ -67,6 +69,8 @@ span {
     border: solid black;
     margin-top: 35px;
     background-color: rgba(163, 177, 138, 0.7);
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .Title {
