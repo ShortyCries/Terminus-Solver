@@ -31,8 +31,7 @@ function App() {
       <div className="ResultBorder">
 
         <div className='PuzzleSolver'>
-          <span>1<sup>st</sup></span><span>2</span><span>3</span>
-
+          <span>1</span><span>2</span><span>3</span>
         </div>
 
         <div className='PuzzleSolver'>
