@@ -21,16 +21,14 @@
 }
 
 .sign:hover {
-    transform: scale(1.1);
-    box-shadow: 0 0 20px 10px rgba(255, 223, 0, 0.7),
-        /* Gold glow */
-        0 0 40px 20px rgba(255, 223, 0, 0.5),
-        /* Wider glow */
-        0 0 60px 30px rgba(255, 223, 0, 0.3);
-    /* Even wider glow */
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 255, 132, 0.7),
+        0 15px 40px rgba(0, 255, 132, 0.5),
+        0 20px 60px rgba(0, 255, 132, 0.3),
+        0 0 10px rgba(0, 255, 132, 0.8);
     filter: brightness(1.2) contrast(1.2);
-    /* Increase brightness and contrast */
 }
+
 
 .ParentContainer {
     position: relative;
@@ -53,6 +51,12 @@
     margin-right: auto;
     width: 101.54px;
     height: 71px;
+    background-image: url("imgs/test.gif");
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.5);
+    /* Lighten the GIF */
+    background-blend-mode: lighten;
+    /* Change this to overlay, multiply, etc. */
     padding-top: 9px;
     border-radius: 5%;
 }
