@@ -10,7 +10,7 @@ import { useState } from 'react'
 function App() {
 
 
-  const [values, setValues] = useState({ X: undefined, Y: undefined, Z: undefined });
+  const [values, setValues] = useState({ X: "x", Y: "x", Z: "x" });
 
   const updateValue = (variable, value) => {
     setValues(prevVals => ({ ...prevVals, [variable]: value }));
@@ -39,17 +39,17 @@ function App() {
         <div className="PuzzleSolver">
           <div>
             <span className="borderLeftRight">
-              {!values.X ? "-" : 2 * values.X + 11}
+              {values.X === 'x' ? "-" : 2 * values.X + 11}
             </span>
           </div>
           <div>
             <span className="borderLeftRight">
-              {!values.Y || !values.Z ? "-" : 2 * values.Z + values.Y - 5}
+              {values.Y === 'x' || values.Z === 'x' ? "-" : 2 * values.Z + values.Y - 5}
             </span>
           </div>
           <div>
             <span className="borderLeftRight">
-              {!values.Y || !values.Z || !values.X ? "-" : Math.abs(values.Y + values.Z - values.X)}
+              {values.Y === 'x' || values.Z === 'x' || values.X === 'x' ? "-" : Math.abs(values.Y + values.Z - values.X)}
             </span>
           </div>
         </div>
