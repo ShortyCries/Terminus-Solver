@@ -8,6 +8,8 @@
 .sign {
     width: calc(33.33% - 10px);
     background-color: rgba(210, 255, 132, 0.4);
+    background-image: url("imgs/2.jpg");
+    background-size: cover;
     border-radius: 5%;
     height: 66px;
     text-align: center;
@@ -19,7 +21,7 @@
 }
 
 .sign:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     box-shadow: 0 0 20px 10px rgba(255, 223, 0, 0.7),
         /* Gold glow */
         0 0 40px 20px rgba(255, 223, 0, 0.5),

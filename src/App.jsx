@@ -10,7 +10,7 @@ import { useState } from 'react'
 function App() {
 
 
-  const [values, setValues] = useState({ X: 0, Y: 0, Z: 0 });
+  const [values, setValues] = useState({ X: 22, Y: 22, Z: 22 });
 
   const updateValue = (variable, value) => {
     setValues(prevVals => ({ ...prevVals, [variable]: value }));
