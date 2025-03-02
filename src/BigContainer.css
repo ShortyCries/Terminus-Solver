@@ -8,7 +8,7 @@
 .sign {
     width: calc(33.33% - 10px);
     background-color: rgba(210, 255, 132, 0.4);
-    background-image: url("imgs/2.jpg");
+    background-image: url("../imgs/2.jpg");
     background-size: cover;
     border-radius: 5%;
     height: 66px;
@@ -33,7 +33,7 @@
 .signSelected {
     width: calc(33.33% - 10px);
     background-color: rgba(210, 255, 132, 0.4);
-    background-image: url("imgs/2.jpg");
+    background-image: url("../imgs/2.jpg");
     background-size: cover;
     border-radius: 5%;
     height: 66px;
@@ -62,7 +62,7 @@
     margin-right: 20px;
     background-color: rgba(163, 177, 138, 0.4);
     border-radius: 2%;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("imgs/bigContainer-bg.avif");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("../imgs/bigContainer-bg.avif");
     background-size: cover;
     background-position: center;
 }
@@ -75,7 +75,7 @@
     margin-right: auto;
     width: 101.54px;
     height: 71px;
-    background-image: url("imgs/test.gif");
+    background-image: url("../imgs/test.gif");
     background-size: cover;
     background-color: rgba(255, 255, 255, 0.5);
     /* Lighten the GIF */
@@ -115,7 +115,7 @@ span {
     margin-left: 20px;
     padding-bottom: 10px;
     border-radius: 10px;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("imgs/1.avif");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("../imgs/1.avif");
     background-size: cover;
 }
 
