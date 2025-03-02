@@ -30,6 +30,30 @@
 }
 
 
+.signSelected {
+    width: calc(33.33% - 10px);
+    background-color: rgba(210, 255, 132, 0.4);
+    background-image: url("imgs/2.jpg");
+    background-size: cover;
+    border-radius: 5%;
+    height: 66px;
+    text-align: center;
+    margin: 3px;
+    padding-top: 1px;
+    border: 2px solid #333;
+    transition: transform 0.175s ease-in-out, box-shadow 0.175s ease-in-out, filter 0.175s ease-in-out;
+    cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAzElEQVRYR+2X0Q6AIAhF5f8/2jYXZkwEjNSVvVUjDpcrGgT7FUkI2D9xRfQETwNIiWO85wfINfQUEyxBG2ArsLwC0jioGt5zFcwF4OYDPi/mBYKm4t0U8ATgRm3ThFoAqkhNgWkA0jJLvaOVSs7j3qMnSgXWBMiWPXe94QqMBMBc1VZIvaTu5u5pQewq0EqNZvIEMCmxAawK0DNkay9QmfFNAJUXfgGgUkLaE7j/h8fnASkxHTz0DGIBMCnBeeM7AArpUd3mz2x3C7wADglA8BcWMZhZAAAAAElFTkSuQmCC) 14 0, pointer;
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 255, 132, 0.7),
+        0 15px 40px rgba(0, 255, 132, 0.5),
+        0 20px 60px rgba(0, 255, 132, 0.3),
+        0 0 10px rgba(0, 255, 132, 0.8);
+    filter: brightness(1.2) contrast(1.2);
+
+}
+
+
+
 .ParentContainer {
     position: relative;
     border: solid black;
