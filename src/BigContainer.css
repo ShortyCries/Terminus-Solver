@@ -1,22 +1,60 @@
 .SignsHolder {
     display: flex;
     flex-wrap: wrap;
-    width: 400px;
-    align-items: center;
-    justify-content: space-around;
+    /* gap: 10px; */
+    justify-content: center;
+}
+
+.sign {
+    width: calc(33.33% - 10px);
+    background-color: rgba(210, 255, 132, 0.4);
+    background-image: url("imgs/2.jpg");
+    background-size: cover;
+    border-radius: 5%;
+    height: 66px;
+    text-align: center;
+    margin: 3px;
+    padding-top: 1px;
+    border: 2px solid #333;
+    transition: transform 0.175s ease-in-out, box-shadow 0.175s ease-in-out, filter 0.175s ease-in-out;
+    cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAzElEQVRYR+2X0Q6AIAhF5f8/2jYXZkwEjNSVvVUjDpcrGgT7FUkI2D9xRfQETwNIiWO85wfINfQUEyxBG2ArsLwC0jioGt5zFcwF4OYDPi/mBYKm4t0U8ATgRm3ThFoAqkhNgWkA0jJLvaOVSs7j3qMnSgXWBMiWPXe94QqMBMBc1VZIvaTu5u5pQewq0EqNZvIEMCmxAawK0DNkay9QmfFNAJUXfgGgUkLaE7j/h8fnASkxHTz0DGIBMCnBeeM7AArpUd3mz2x3C7wADglA8BcWMZhZAAAAAElFTkSuQmCC) 14 0, pointer;
+}
+
+.sign:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px 10px rgba(255, 223, 0, 0.7),
+        /* Gold glow */
+        0 0 40px 20px rgba(255, 223, 0, 0.5),
+        /* Wider glow */
+        0 0 60px 30px rgba(255, 223, 0, 0.3);
+    /* Even wider glow */
+    filter: brightness(1.2) contrast(1.2);
+    /* Increase brightness and contrast */
 }
 
 .ParentContainer {
+    position: relative;
     border: solid black;
     padding: 30px;
     margin-left: 20px;
     margin-right: 20px;
-    background-color: rgba(163, 177, 138, 0.7);
+    background-color: rgba(163, 177, 138, 0.4);
+    border-radius: 2%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("imgs/bigContainer-bg.avif");
+    background-size: cover;
+    background-position: center;
 }
 
 
 .resultImg {
     margin-bottom: 45px;
+    border: 2px solid #333;
+    margin-left: auto;
+    margin-right: auto;
+    width: 101.54px;
+    height: 71px;
+    padding-top: 9px;
+    border-radius: 5%;
 }
 
 .PuzzleSolver {
@@ -35,37 +73,31 @@
 }
 
 span {
-    font-size: 50px;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-shadow: rgb(51, 65, 85) 0px 2px 0px;
 }
 
 .ResultBorder {
     border: solid black;
     margin-top: 35px;
     background-color: rgba(163, 177, 138, 0.7);
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("imgs/1.avif");
+    background-size: cover;
 }
 
-.HoverEffect {
-    transition: transform 0.3s ease-in-out;
+.Title {
+    margin-bottom: 100px;
+    color: white;
+    text-shadow: rgba(2, 6, 23, 0.8) 4px 5px 0px;
 }
 
-.HoverEffect:hover {
-    transform: scale(1.1);
-
+.XYZ {
+    text-shadow: rgba(2, 6, 23, 0.8) 4px 5px 0px;
+    color: white;
 }
-
-/* 
-.flexContainer {
-    aspect-ratio: 1;
-    background: white;
-    border-radius: 6px;
-    padding: 5px;
-    cursor: pointer;
-    border: 2px solid transparent;
-    transition: border-color 0.2sease;
-}
-
-.flexContainer img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-} */

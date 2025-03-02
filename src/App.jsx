@@ -1,6 +1,7 @@
 
 import './App.css'
 import './BigContainer.css'
+import './index.css'
 import BigContainer from './BigContainer'
 import { useState } from 'react'
 
@@ -9,7 +10,7 @@ import { useState } from 'react'
 function App() {
 
 
-  const [values, setValues] = useState({ X: 0, Y: 0, Z: 0 });
+  const [values, setValues] = useState({ X: 22, Y: 22, Z: 22 });
 
   const updateValue = (variable, value) => {
     setValues(prevVals => ({ ...prevVals, [variable]: value }));
@@ -19,7 +20,7 @@ function App() {
 
   return (
     <>
-      <h1>Multi-Phasic Injector Step</h1>
+      <h1 className="Title">Multi-Phasic Injector Step</h1>
       <div className='PuzzleSolver'>
         <BigContainer variable={"X"} bigUpdateValues={updateValue} />
         <BigContainer variable={"Y"} bigUpdateValues={updateValue} />
@@ -31,7 +32,7 @@ function App() {
       <div className="ResultBorder">
 
         <div className='PuzzleSolver'>
-          <span>I</span><span>II</span><span>III</span>
+          <span>1</span><span>2</span><span>3</span>
 
         </div>
 
@@ -47,12 +48,6 @@ function App() {
           </div>
         </div>
       </div>
-
-      <div>
-        <span>{2 * values.X + 11}</span><br /><span>{(2 * values.Z + values.Y) - 5}</span><br /><span>{Math.abs((values.Y + values.Z) - values.X)}</span>
-      </div>
-
-
     </>
   )
 }

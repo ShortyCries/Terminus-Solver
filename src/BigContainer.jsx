@@ -17,8 +17,8 @@ export default function BigContainer({ variable, bigUpdateValues }) {
         <div>
             <div className="ParentContainer">
 
-                <h1 style={{ marginTop: "0px", marginBottom: "100px" }}>{variable}</h1>
-
+                <h1 className="XYZ" style={{ marginTop: "0px", marginBottom: "100px" }}>{variable}</h1>
+                
                 <div className="resultImg">
                     <img src={address} value={result} alt="" />
                 </div>
@@ -29,8 +29,9 @@ export default function BigContainer({ variable, bigUpdateValues }) {
                     <Signs value={11} clickFunc={handleClick} />
                     <Signs value={10} clickFunc={handleClick} />
                     <Signs value={0} clickFunc={handleClick} />
-                </div>
 
+                </div>
+                
             </div>
 
         </div>
